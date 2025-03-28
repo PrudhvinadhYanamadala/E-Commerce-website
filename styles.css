@@ -101,3 +101,12 @@ nav a {
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1D1D1F;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
