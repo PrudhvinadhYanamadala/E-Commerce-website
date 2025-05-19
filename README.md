@@ -1,57 +1,83 @@
+# E-Commerce Website 
 
- 🏠 index.html
+This is a simple e-commerce website for learning web development.  
+You can browse Apple products, add them to a cart, and see your total.  
 
-- Displays a list of Apple products: MacBook, iPhone, AirPods, Watch, AirTags, iPad.
-- Each product has an image, name, price, and an **Add to Cart** button.
-- The cart icon in the header shows the number of items in the cart.
-- Clicking "Add to Cart" stores the product in `localStorage`.
 
 ---
 
- 🛒 cart.html
+##  Features
 
-- Displays items added to the cart.
-- Shows product image, name, and price.
-- Users can:
-  - **Remove** individual items from the cart.
-  - **Clear Cart** to remove all items.
-  - **Checkout**, which currently shows an alert.
+- List of Apple products with images and prices
+- Add products to your shopping cart
+- Change product quantity or remove from cart
+- Cart total updates automatically
+- Your cart is saved in your browser (localStorage)
+- Simple checkout form (demo only)
+- Works on computers and mobile devices
 
- 🎨 styles.css
+---
 
-- Modern, clean layout with a responsive product grid.
-- Fixed header and footer for a consistent layout.
-- Button and product card styles for a professional look.
-- Colors:  
-  - Header: Light background with dark text  
-  - Footer: Dark background with white text  
-  - Cart Button: Bright accent color (#ff5733)
+##  Project Structure
 
 
- 💻 script.js
+E-Commerce-website/
+├── images/          # Product images (macbook.png, iphone.png, etc.)
+├── index.html       # Home page (product listing)
+├── cart.html        # Your shopping cart page
+├── styles.css       # Main styles
+├── index.js         # Home page JavaScript
+├── cart.js          # Cart page JavaScript
+├── nav.js           # Navigation menu code
+└── README.md        # This file
+```
 
-- Adds products to the cart and stores them using `localStorage`.
-- Updates the cart count in the header.
-- Handles item removal and cart clearing.
-- Parses image file names to store in the cart.
-- Uses `DOMContentLoaded` to ensure DOM is ready before interaction.
+---
 
-🚀 How to Run
+## 🖼️ Images
 
-1. Clone the repository or download the files.
-2. Open `index.html` in a web browser.
-3. Click "Add to Cart" to store items.
-4. Open `cart.html` to view and manage your cart.
+Place images of products in the `images/` folder.  
+Example file names:
+- `macbook.png`
+- `iphone.png`
+- `ipad.png`
+- `airpods.png`
+- `watch.png`
+- `airtags.png`
 
-📦 Future Enhancements
+---
 
-- Add product quantity feature.
-- Include total price calculation.
-- Enable persistent checkout form.
-- Add backend integration for order processing.
+## 🏁 How To Run
 
- 👨‍💻 Author
+1. **Download or clone this project:**
+   ```bash
+   git clone https://github.com/PrudhvinadhYanamadala/E-Commerce-website.git
+   cd E-Commerce-website
+   ```
 
-**Prudhvinadh Yanamadala**  
-*© 2025 E-Commerce Apple Store. All rights reserved.*
+2. **Open `index.html` in your web browser.**
 
+3. **Add items to your cart and try out the features!**
+
+---
+
+## 👨‍💻 For Beginners
+
+- All code is in simple HTML, CSS, and JavaScript.
+- No frameworks or build tools needed.
+- You can edit files in any text editor.
+
+---
+
+## 🙋‍♂️ Author
+
+Prudhvinadh Yanamadala
+
+---
+
+## ⚠️ Note
+
+This website is for practice and learning only.  
+No real orders or payments will be made.
+
+---
