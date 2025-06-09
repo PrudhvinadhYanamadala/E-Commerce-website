@@ -4,7 +4,7 @@ This is a simple e-commerce website for learning web development.
 You can browse Apple products, add them to a cart, and see your total.  
 
 
----
+
 
 ##  Features
 
@@ -16,7 +16,7 @@ You can browse Apple products, add them to a cart, and see your total.
 - Simple checkout form (demo only)
 - Works on computers and mobile devices
 
----
+
 
 ##  Project Structure
 
@@ -30,9 +30,9 @@ E-Commerce-website/
 ├── cart.js          # Cart page JavaScript
 ├── nav.js           # Navigation menu code
 └── README.md        # This file
-```
 
----
+
+
 
 ## 🖼️ Images
 
@@ -45,21 +45,21 @@ Example file names:
 - `watch.png`
 - `airtags.png`
 
----
+
 
 ## 🏁 How To Run
 
 1. **Download or clone this project:**
-   ```bash
+  bash
    git clone https://github.com/PrudhvinadhYanamadala/E-Commerce-website.git
    cd E-Commerce-website
-   ```
+   
 
 2. **Open `index.html` in your web browser.**
 
 3. **Add items to your cart and try out the features!**
 
----
+
 
 ## 👨‍💻 For Beginners
 
@@ -67,17 +67,16 @@ Example file names:
 - No frameworks or build tools needed.
 - You can edit files in any text editor.
 
----
+
 
 ## 🙋‍♂️ Author
 
 Prudhvinadh Yanamadala
 
----
+
 
 ## ⚠️ Note
 
 This website is for practice and learning only.  
 No real orders or payments will be made.
 
----
